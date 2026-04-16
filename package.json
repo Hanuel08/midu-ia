@@ -1,7 +1,19 @@
 {
-  "name": "07-inteligencia-artificial",
+  "name": "midu-ia",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Hanuel08/midu-ia#readme",
+  "bugs": {
+    "url": "https://github.com/Hanuel08/midu-ia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanuel08/midu-ia.git"
+  },
+  "license": "ISC",
+  "author": "Hanuel",
+  "type": "commonjs",
   "main": "index.js",
   "directories": {
     "example": "examples"
@@ -14,9 +26,5 @@
     "dev:backend": "npm run watch --workspace=backend",
     "dev:frontend": "npm run dev --workspace=frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  }
 }
